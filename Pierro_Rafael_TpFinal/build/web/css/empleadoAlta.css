@@ -1,0 +1,49 @@
+.fondo {
+  background-color: #15283c;
+  background-image: url('../images/layout_img/pattern_h.png');
+  height: 1024px;
+}
+html,
+body {
+    color: #898989;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-weight: 300;
+    overflow-x: hidden !important;
+}
+p{
+	font-family: roboto;
+	font-weight: bold;
+  color: white;
+}
+h1{
+	color: white;
+}
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 30%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+.campo:hover{
+	background: #F9E79F;
+	padding: 2px;
+	color: brown;
+}
